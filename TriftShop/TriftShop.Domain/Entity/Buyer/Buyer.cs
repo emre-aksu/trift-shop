@@ -17,7 +17,6 @@ namespace TriftShop.Domain.Entity.Buyer
         public string Password { get; set; }
         public bool isEmailVerified { get; set; }
         public bool isPhoneNumberVerified { get; set; }
-
         public List<BuyerAddress> BuyerAddresses {  get; set; }
 
     }

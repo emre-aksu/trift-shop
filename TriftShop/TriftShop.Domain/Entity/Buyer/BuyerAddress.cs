@@ -17,7 +17,6 @@ namespace TriftShop.Domain.Entity.Buyer
         public string Street { get; set; }
         public string FlatNumber { get; set; }
         public string Floor { get; set; }
-        
         public Buyer Buyer { get; set; }
     }
 }
