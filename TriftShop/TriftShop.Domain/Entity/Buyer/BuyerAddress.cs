@@ -9,6 +9,7 @@ namespace TriftShop.Domain.Entity.Buyer
     public class BuyerAddress
     {
         public int Id { get; set; }
+        public int BuyerId { get; set; }
         public string Title { get; set; }
         public string AddresLine { get; set; }
         public string City { get; set; }
